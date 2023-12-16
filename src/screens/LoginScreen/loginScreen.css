@@ -1,0 +1,33 @@
+.login-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-screen .form input {
+  display: block;
+  padding: 0 16px;
+  height: 48px;
+  border: none;
+  border: 1px solid #eee;
+  outline-color: red;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.login-screen .form button {
+  border: none;
+  height: 48px;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.login-screen .form button:active {
+  opacity: 0.4;
+}
